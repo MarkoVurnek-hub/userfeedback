@@ -10,4 +10,5 @@ const extendedTheme = extendTheme({
     bold: 700
   }
 });
+
 export default extendedTheme;

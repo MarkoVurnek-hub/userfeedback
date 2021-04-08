@@ -11,11 +11,19 @@ const GlobalStyle = ({ children }) => {
           html {
             min-width: 360px;
             scroll-behavior: smooth;
+            //overflow: hidden;
           }
           #__next {
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+          }
+          .vis {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
           }
         `}
       />
